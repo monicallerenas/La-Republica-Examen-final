@@ -1,0 +1,69 @@
+/*PARTE DE LUPITA*/
+
+.border-blog{
+	border: 1px solid $color-text-2;
+	padding: 1em 0.5em 0.5em 0.5em;
+	width: 18em;
+	height: 13em;
+	margin-top: 1em;
+	margin-left: 1.5%;
+}
+
+.bg-gris{
+	width: 16.9em;
+	height: 4.5em;
+	background: $color-text-3;
+	padding-left: 0.7em;
+}
+
+.mg-top-1{
+	margin-top: 7.4rem;
+}
+.mg-top-2{
+	margin-top: 5.4rem;
+}
+
+.display{
+	display: inline-block;
+}
+
+.pd-comentario{
+	padding-left: 0.5rem;
+}
+
+.right{
+	margin-right: 8.333333333333332%;
+}
+
+@media screen and (max-width: 967px) {
+    .border-blog {
+     width: 21.5em;
+    }
+    .bg-gris{
+    width: 20.4em;	
+    }
+    .list-unstyled {
+		margin-top: 3em;
+    }
+    
+}
+
+.list-foo{
+	display: inline-block;
+	top: 1em;
+	padding-left: 0.5em;
+	margin-right: 0;
+	padding-bottom: 1em;
+	color:gray;
+}
+
+.border{
+	border-left: 1px solid gray;
+	margin-left: 0.3em;
+}
+
+.logo-glr{
+	margin-top: 5.5em;
+}
+
+/*TERMINA PARTE D ELUPITA*/

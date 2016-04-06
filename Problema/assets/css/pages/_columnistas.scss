@@ -1,0 +1,38 @@
+#todos-columnistas {
+	.nav-pills {
+		background: $color-menu;
+		padding: 10px 20px;
+		li {
+			margin: 0 2%;
+			border-radius: 15px;
+			a {
+				border-radius: 20px;
+				color: white;
+				&:hover, &:focus {
+					background-color: $color-rep;
+				}
+			}
+			.active {
+				a {
+					&:hover, &:focus {
+						background-color: $color-rep;
+					}
+				}
+			}
+		}
+	}
+	.media {
+		background: $color-nav;
+		padding: 20px 10px;
+		margin: 5px 0;
+		img {
+			border: 3px solid white;
+		}
+		.active {
+			background-color: white;
+		}
+	}
+	button {
+		margin: 15px;
+	}
+}
